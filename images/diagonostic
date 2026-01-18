@@ -1,6 +1,11 @@
 Summary:
 
-The generalized linear model demonstrates strong overall calibration, with modeled pure premium within approximately 3% of observed experience at the portfolio level. However, segment-level diagnostics reveal systematic patterns across key rating factors. By driver age, the model materially under-predicts pure premium for younger drivers (ages 25–34), with a predicted-to-observed ratio of approximately 0.41, while over-predicting losses for older drivers, particularly those aged 45 and above. This pattern suggests either missing risk characteristics correlated with younger drivers or intentional smoothing of volatile experience in high-risk segments.
+The generalized linear model demonstrates strong overall calibration, with modeled pure premium within approximately 3% of observed experience at the portfolio level. 
+However, segment-level diagnostics reveal systematic patterns across key rating factors. By driver age, the model materially under-predicts pure premium for younger drivers (ages 25–34), with a predicted-to-observed ratio of approximately 0.41, while over-predicting losses for older drivers, particularly those aged 45 and above. 
+This pattern suggests either missing risk characteristics correlated with younger drivers or intentional smoothing of volatile experience in high-risk segments.
 
-Vehicle age diagnostics show a similar tail behavior. The model significantly over-predicts pure premium for very new vehicles (0–1 years), with predicted losses approximately double observed experience, while under-predicting losses for older vehicles (11+ years). Mid-aged vehicles (2–10 years) are well-calibrated, contributing to the overall stability of the model. These results indicate that while both driver age and vehicle age are effective rating factors, additional refinement may be warranted at the extremes, such as alternative banding structures or interaction terms (e.g., driver age by vehicle age), prior to rate implementation.
+Vehicle age diagnostics show a similar tail behavior. 
+The model significantly over-predicts pure premium for very new vehicles (0–1 years), with predicted losses approximately double observed experience, while under-predicting losses for older vehicles (11+ years). 
+Mid-aged vehicles (2–10 years) are well-calibrated, contributing to the overall stability of the model. 
+These results indicate that while both driver age and vehicle age are effective rating factors, additional refinement may be warranted at the extremes, such as alternative banding structures or interaction terms (e.g., driver age by vehicle age), prior to rate implementation.
 

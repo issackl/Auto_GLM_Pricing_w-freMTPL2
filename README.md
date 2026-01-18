@@ -47,6 +47,6 @@ The separation of policy-level and claim-level data enables a proper frequencyâ€
 - **Purpose:** Estimate expected loss per claim  
 
 ### Pure Premium
-Pure premium is calculated as:
+Pure premium is calculated as: Frequency Ã— Severity
 
 
